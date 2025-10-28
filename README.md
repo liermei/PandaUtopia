@@ -1,164 +1,169 @@
-# 🐼 熊猫乌托邦 - Panda Utopia
+# 🐼 Panda Utopia
 
-欢迎来到熊猫乌托邦！这是一个充满梦幻与可爱的熊猫主题网站。
+Welcome to Panda Utopia! This is a panda-themed website filled with fantasy and cuteness.
 
-## ✨ 特点
+## ✨ Features
 
-- 🐼 **萌趣设计** - 以大熊猫为主题的可爱界面
-- 🎋 **竹林风格** - 绿色自然配色，充满生机
-- 📱 **完全响应式** - 适配各种设备（手机、平板、桌面）
-- ✨ **动画效果** - 平滑动画、飘落竹叶、打字机效果
-- 🖼️ **精美图片** - 每个板块都配有高质量熊猫图片
-- 🎨 **交互体验** - 悬停效果、点击放大、滚动动画
-- 🎯 **趣味内容** - 熊猫趣闻、栖息地介绍、熊猫家族
+- 🐼 **Cute Design** - A cute panda-themed interface
+- 🎋 **Bamboo Forest Style** - A vibrant green color scheme
+- 📱 **Fully Responsive** - Compatible with all devices (mobile, tablet, desktop)
+- ✨ **Animation** - Smooth animation, falling bamboo leaves, and a typewriter effect
+- 🖼️ **Beautiful Images** - High-quality panda images for each section
+- 🎨 **Interactive Experience** - Hover effects, click-to-zoom, and scroll animations
+- 🎯 **Interesting Content** - Panda trivia, habitat introductions, and the panda family
 
-## 📖 内容介绍
+## 📖 Content Introduction
 
-### 🐼 熊猫家族成员（6只）
+### 🐼 Panda Family Members (6)
 
-1. **Emily** - 乌托邦的智者
-   - 竹子专家、睡觉冠军、禅意大师
+1. **Emily** - Utopian Sage
+- Bamboo expert, sleep champion, and Zen master
 
-2. **圆圆** - 活力小天使
-   - 攀爬高手、快乐使者、杂技演员
+2. **Yuanyuan** - Energetic little angel
+- Climbing Master, Joy Bringer, Acrobat
 
-3. **萌萌** - 美食评论家
-   - 味蕾敏锐、优雅绅士、博学多才
+3. **Meng Meng** - Food Critic
 
-4. **胖胖** - 慵懒之王
-   - 躺平专家、梦境旅人、冥想大师
+Sharp taste buds, elegant gentleman, and well-read
 
-5. **乐乐** - 音乐天才
-   - 音乐家、表演者、创意无限
+4. **Pang Pang** - King of Laziness
 
-6. **宝宝** - 探险家
-   - 探险者、地图绘制师、好奇宝宝
+Expert in lying down, dream traveler, and meditation master
 
-### 🎋 熊猫栖息地（4个）
+5. **Le Le** - Musical Genius
 
-- 🎋 **竹林天堂** - 无边无际的翠绿竹林
-- 🏔️ **云雾山谷** - 神秘的云雾笼罩山谷
-- 🌸 **花海乐园** - 五彩缤纷的花朵盛开
-- 🌅 **日落观景台** - 欣赏壮丽日落的好地方
+Musician, performer, and endlessly creative
 
-### 📸 熊猫生活画廊（6张）
+6. **Bao Bao** - Explorer
 
-展示熊猫的日常生活，包括：
-- 美食时光 - 享受新鲜竹笋
-- 午后小憩 - 慵懒的午后时光
-- 快乐玩耍 - 树上的杂技表演
-- 萌萌宝宝 - 可爱的熊猫幼崽
-- 探索世界 - 好奇的小探险家
-- 沉思时刻 - 熊猫的哲学时间
+Explorer, cartographer, and curious baby
 
-**每张图片都支持点击放大查看！**
+### 🎋 Panda Habitats (4 locations)
 
-### 💡 熊猫趣闻（6个）
+- 🎋 **Bamboo Paradise** - Endless emerald bamboo forest
+- 🏔️ **Mist Valley** - A mysterious valley shrouded in mist
+- 🌸 **Flower Sea Paradise** - A vibrant array of colorful flowers
+- 🌅 **Sunset Observation Deck** - A great place to watch a magnificent sunset
 
-- 🎋 竹子狂热者 - 每天要吃12-38公斤竹子
-- 💤 睡眠大师 - 每天睡10-16小时
-- 🤸 杂技天才 - 爬树高手
-- 👶 迷你宝宝 - 出生时只有100-200克
-- 🎨 黑白经典 - 独特的黑白配色
-- 🌏 国宝明星 - 中国的国宝
+### 📸 Panda Life Gallery (6 photos)
 
-## 🎨 技术特性
+Showcasing the daily lives of pandas, including:
+- Gourmet Time - Enjoying Fresh Bamboo Shoots
+- Afternoon Nap - Lazy Afternoon Time
+- Happy Play - Tree Acrobatics
+- Adorable Baby - Adorable Panda Cubs
+- Exploring the World - Curious Little Explorers
+- Moments of Contemplation - Pandas' Philosophical Time
 
-### 视觉效果
-- ✅ 渐变色背景和卡片
-- ✅ 竹子图案装饰
-- ✅ 熊猫emoji动画（跳跃、旋转）
-- ✅ 飘落竹叶特效
-- ✅ 图片缩放和旋转效果
-- ✅ 平滑的过渡动画
+**Click on each image to enlarge it! **
 
-### 交互功能
-- ✅ 平滑滚动导航
-- ✅ 彩色滚动进度条
-- ✅ 熊猫返回顶部按钮
-- ✅ 卡片悬停3D效果
-- ✅ 画廊图片点击放大（带关闭按钮）
-- ✅ 导航栏活动状态高亮
-- ✅ 打字机效果标题
+### 💡 Panda Fun Facts (6 items)
 
-### 响应式设计
-- ✅ 移动端单列布局
-- ✅ 平板双列布局
-- ✅ 桌面端多列网格布局
-- ✅ 自适应字体大小
+- 🎋 Bamboo Fanatic - Eats 12-38 kg of bamboo daily
+- 💤 Sleep Master - Sleeps 10-16 hours a day
+- 🤸 Acrobatic Genius - Tree Climbing Expert
+- 👶 Mini Baby - Weighs only 100-200 grams at birth
+- 🎨 Black and White Classic - Unique black and white color scheme
+- 🌏 National Treasure Star - China's national treasure
 
-## 🚀 使用方法
+## 🎨 Technical Features
 
-1. 直接在浏览器中打开 `index.html` 文件
-2. 无需额外的服务器或依赖
-3. 所有样式和脚本都已包含
+### Visual Effects
+- ✅ Gradient background and card
+- ✅ Bamboo pattern decoration
+- ✅ Panda emoji animation (jumping, spinning)
+- ✅ Falling bamboo leaf effect
+- ✅ Image zoom and rotation effects
+- ✅ Smooth transition animations
 
-## 💻 技术栈
+### Interactive Features
+- ✅ Smooth scrolling navigation
+- ✅ Colorful scrolling progress bar
+- ✅ Panda back to top button
+- ✅ 3D card hover effect
+- ✅ Gallery image click to enlarge (with close button)
+- ✅ Navigation bar active state highlight
+- ✅ Typewriter-style title
+
+### Responsive Design
+- ✅ Single-column layout for mobile
+- ✅ Double-column layout for tablets
+- ✅ Multi-column grid layout for desktop
+- ✅ Adaptive font size
+
+## 🚀 How to Use
+
+1. Open the `index.html` file directly in your browser
+2. No additional servers or dependencies required
+3. All styles and scripts are included
+
+## 💻 Technology Stack
 
 - HTML5
-- CSS3（Grid、Flexbox、渐变、动画、变换）
-- 原生JavaScript（DOM操作、事件监听、动画效果）
-- SVG图案（竹子纹理背景）
+- CSS3 (Grid, Flexbox, gradients, animations, transforms)
+- Native JavaScript (DOM manipulation, event listening, animations)
+- SVG pattern (bamboo texture background)
 
-## 🎯 配色方案
+## 🎯 Color Scheme
 
-- **主色调**：深灰蓝色 (#2c3e50)
-- **次要色**：竹绿色 (#2ecc71)
-- **强调色**：金黄色 (#f39c12)
-- **背景色**：淡绿渐变
-- **熊猫色**：纯黑 + 纯白
+- **Main color**: Dark gray-blue (#2c3e50)
+- **Secondary Color**: Bamboo Green (#2ecc71)
+- **Accent Color**: Golden Yellow (#f39c12)
+- **Background Color**: Light Green Gradient
+- **Panda Color**: Pure Black + Pure White
 
-## 📱 浏览器兼容性
+## 📱 Browser Compatibility
 
-支持所有现代浏览器：
+Supports all modern browsers:
 - Chrome
 - Firefox
 - Safari
 - Edge
 
-## 🎨 自定义说明
+## 🎨 Customization Instructions
 
-### 更换熊猫图片
-在 `index.html` 中找到对应的 `<img>` 标签，修改 `src` 属性即可。
+### Changing the Panda Image
 
-### 修改配色
-在 `styles.css` 的 `:root` 部分修改 CSS 变量：
+Find the corresponding `<img>` tag in `index.html` and modify the `src` attribute.
+
+### Modify the color scheme
+In the `:root` section of `styles.css`, modify the CSS variables:
 ```css
 :root {
-    --primary-color: #2c3e50;
-    --bamboo-green: #2ecc71;
-    --accent-color: #f39c12;
+--primary-color: #2c3e50;
+--bamboo-green: #2ecc71;
+--accent-color: #f39c12;
 }
 ```
 
-### 添加熊猫成员
-复制 `.panda-card` 的 HTML 结构，修改内容即可。
+### Add a Panda member
+Copy the HTML structure of `.panda-card` and modify the content.
 
-## 🌟 特色功能
+## 🌟 Features
 
-1. **飘落竹叶** - 页面上会不断飘落装饰性的竹叶emoji
-2. **熊猫按钮** - 右下角的熊猫emoji会旋转并带你回到顶部
-3. **打字机效果** - 标题会逐字显示
-4. **随机渐变** - 每个卡片的渐变色都不同
-5. **模态框相册** - 点击画廊图片可全屏查看，带关闭按钮
+1. **Falling Bamboo Leaves** - Decorative bamboo leaf emojis continuously fall on the page
+2. **Panda Button** - The panda emoji in the lower right corner rotates and takes you back to the top
+3. **Typewriter Effect** - Titles appear word by word
+4. **Random Gradient** - Each card has a different gradient color
+5. **Modal Gallery** - Click on an image in the gallery to view it fullscreen with a close button
 
-## 📝 项目结构
+## 📝 Project Structure
 
 ```
 panda/
-├── index.html          # 主页面
-├── styles.css          # 样式文件
-├── script.js           # JavaScript交互
-└── README.md          # 说明文档
+├── index.html # Main Page
+├── styles.css # Style Files
+├── script.js # JavaScript Interactions
+└── README.md # Documentation
 ```
 
-## 🐼 熊猫乌托邦宣言
+## 🐼 Panda Utopia Manifesto
 
-> "在熊猫乌托邦，每一天都充满竹子的清香和慵懒的幸福。
-> 这里没有烦恼，只有黑白分明的简单快乐。"
+> "In Panda Utopia, every day is filled with the fragrance of bamboo and lazy bliss."
+> Here, there are no worries, only simple joys, clear as day.
 
 ---
 
-💚 用爱与竹子构建 | Made with Love & Bamboo 🎋
+💚 Made with Love & Bamboo 🎋
 
-© 2025 熊猫乌托邦 | Panda Utopia | 守护每一只熊猫的梦想
+© 2025 Panda Utopia | Protecting Every Panda's Dream
