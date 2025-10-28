@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Panda Game - Panda Utopia</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .game-container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        .game-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-header h1 {
+            font-size: 3rem;
+            background: linear-gradient(45deg, #2ecc71, #27ae60, #f39c12);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            font-family: 'Comic Sans MS', 'Microsoft YaHei', sans-serif;
+        }
+
+        .game-header p {
+            font-size: 1.2rem;
+            color: #666;
+            font-family: 'Comic Sans MS', 'Microsoft YaHei', sans-serif;
+        }
+
+        .game-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 1rem;
+            animation: gameGlow 2s infinite;
+        }
+
+        @keyframes gameGlow {
+            0%, 100% { box-shadow: 0 0 10px rgba(243, 156, 18, 0.5); }
+            50% { box-shadow: 0 0 20px rgba(243, 156, 18, 0.8); }
+        }
+
+        .game-frame-wrapper {
+            position: relative;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            border: 4px solid #f39c12;
+        }
+
+        .game-frame {
+            width: 100%;
+            height: 85vh;
+            min-height: 700px;
+            border: none;
+            display: block;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin: 2rem 0;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3);
+        }
+
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(46, 204, 113, 0.5);
+        }
+
+        .game-info {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-info h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-family: 'Comic Sans MS', 'Microsoft YaHei', sans-serif;
+        }
+
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .control-item {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, rgba(243, 156, 18, 0.1), rgba(243, 156, 18, 0.05));
+            border-radius: 15px;
+            border-left: 4px solid #f39c12;
+        }
+
+        .control-item h3 {
+            font-size: 1.3rem;
+            color: #f39c12;
+            margin-bottom: 0.8rem;
+        }
+
+        .control-item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .control-item li {
+            color: #666;
+            line-height: 2;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .control-item li::before {
+            content: '🐼';
+            position: absolute;
+            left: 0;
+        }
+
+        .control-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .game-header h1 {
+                font-size: 2rem;
+            }
+
+            .game-frame {
+                height: 60vh;
+                min-height: 500px;
+            }
+
+            .controls-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero" style="height: 300px; background-image: linear-gradient(135deg, rgba(30, 60, 114, 0.7) 0%, rgba(42, 82, 152, 0.7) 50%, rgba(126, 34, 206, 0.6) 100%), url('pic/bg/b.png'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="title">Super Panda Game</h1>
+            <p class="subtitle">Cute Panda Adventure</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="index.html#pandas">🐼 Panda Family</a></li>
+                <li><a href="index.html#game">🎮 Game</a></li>
+                <li><a href="index.html#habitat">🎋 Habitat</a></li>
+                <li><a href="index.html#gallery">📸 Gallery</a></li>
+                <li><a href="index.html#facts">💡 Fun Facts</a></li>
+                <li><a href="live.html">📺 Live Stream</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="game-container">
+        <div class="game-header">
+            <h1>🎮 Super Panda Adventure</h1>
+            <p>Help the panda collect bamboo and reach the flag!</p>
+            <span class="game-badge">🎯 PLAY NOW</span>
+        </div>
+
+        <div class="game-frame-wrapper">
+            <iframe 
+                class="game-frame"
+                src="https://gamepanda.vercel.app/"
+                allowfullscreen
+                title="Super Panda Game">
+            </iframe>
+        </div>
+
+        <a href="index.html" class="back-button">⬅ Back to Panda Utopia</a>
+
+        <div class="game-info">
+            <h2>How to Play Super Panda</h2>
+            <div class="controls-grid">
+                <div class="control-item">
+                    <h3>🎮 Controls</h3>
+                    <ul>
+                        <li>⬅️ Move Left: Arrow Left / A</li>
+                        <li>➡️ Move Right: Arrow Right / D</li>
+                        <li>⬆️ Jump: Space / W / Arrow Up</li>
+                    </ul>
+                </div>
+                <div class="control-item">
+                    <h3>🎯 Objectives</h3>
+                    <ul>
+                        <li>🚩 Reach the flag pole to complete level</li>
+                        <li>🎋 Collect bamboo for points</li>
+                        <li>🥟 Eat buns to grow bigger</li>
+                        <li>⭐ Collect stars for invincibility</li>
+                    </ul>
+                </div>
+                <div class="control-item">
+                    <h3>⚔️ Combat</h3>
+                    <ul>
+                        <li>🐭 Jump on mice to defeat them</li>
+                        <li>❤️ Don't touch mice bodies</li>
+                        <li>⚠️ Avoid falling into pits</li>
+                    </ul>
+                </div>
+                <div class="control-item">
+                    <h3>🏆 Game Features</h3>
+                    <p>Experience classic platform gaming with adorable panda graphics, collect items, defeat enemies, and complete challenging levels!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-panda">🐼</div>
+                <p>&copy; 2025 Panda Utopia | Protecting Every Panda's Dream</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.8;">Game powered by <a href="https://gamepanda.vercel.app/" target="_blank" style="color: #2ecc71; text-decoration: none;">Super Panda</a></p>
+                <div class="footer-bamboo">🎋🎋🎋🎋🎋</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
